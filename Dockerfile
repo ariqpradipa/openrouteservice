@@ -56,5 +56,4 @@ RUN chmod -R go+rwX /ors-core /ors-conf /usr/local/tomcat /var/log/ors
 VOLUME ["/ors-core/data/graphs", "/ors-core/data/elevation_cache", "/ors-conf", "/usr/local/tomcat/logs", "/var/log/ors"]
 
 # Start the container
-EXPOSE 8080
-ENTRYPOINT ["/bin/bash", "/ors-core/docker-entrypoint.sh"]
+
